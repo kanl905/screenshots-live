@@ -13,14 +13,13 @@ function getRandomInt(min, max) {
 
 //variables for grid
 var gridGroup = new Group()
-var gridW = getRandomInt(15,100)-Math.random()*40
-var gridH = getRandomInt(8,80)
+var gridW = getRandomInt(40,100)-Math.random()*40
+var gridH = getRandomInt(40,80)
 var gridSize = (w / gridW)
 var gridSizeH = (h / gridH)
 
 //colorssss [layer1, layer2, layer3, layer4, background]
 var palleteA = ['blue', 'lightpink','green','yellow','black'] //weather looking one
-    palleteB = ['lavenderblush','lightpink','yellowgreen','blue','#34E7FF']
     palleteC = ['#A55FFF', '#FF2929','#38FFF3','yellow','#284BFF']
     palleteD = ['#A65776','magenta','yellow', '#31CB66','#0A139B']
     palleteE = ['#7CAD9B','#A22667', '#7629F2', '#F22929', '#D6DC3A'] //accidental y project tank
@@ -28,7 +27,6 @@ var palleteA = ['blue', 'lightpink','green','yellow','black'] //weather looking 
     palleteG = ['#FF0099','#FF63C1','#FFBDE5','yellow','fuchsia'] //hot pink and yellow
     palleteH = ['#E7738C', '#FF479F', 'red', '#FFD81C' , '#67C022'] //green pink yellow
     palleteI = ['#215019', '#00A023', '#97FF8E', 'blue' , 'black']
-    palleteJ = ['cyan', 'magenta','yellow', 'white','black'] // cmyk 2
     palleteK = ['magenta', 'cyan','yellow', 'white','black'] //cmyk 1
     palleteL = ['#922505', '#AC4403','#DD8204','#FFC043', '#351402'] //blade runner las vegas
     palleteM = ['#373E10','#7B790E','#647C64','#C2D6B9','#2D2D1B'] //blade runner worm farm
