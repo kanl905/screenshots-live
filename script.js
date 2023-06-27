@@ -36,8 +36,7 @@ var palleteA = ['blue', 'lightpink','green','yellow','black'] //weather looking 
     //pallete = ['#','#','#','#','#']
 
     //array of arrays
-    var palletes = [palleteA, palleteC, palleteD, palleteE, palleteF, palleteG, palleteH, palleteI, palleteK, palleteL, palleteM, palleteN]
-    //var palletes = [palleteA]
+    var palletes = [palleteA, palleteC, palleteD, palleteE, palleteF, palleteG, palleteH, palleteI, palleteL, palleteM, palleteN, palleteP]
     var chosenPallete = palletes[Math.floor(Math.random() * palletes.length)]
     
     var layer1 = chosenPallete[0]
